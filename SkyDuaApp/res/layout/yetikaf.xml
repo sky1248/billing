@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qbe"
+    android:orientation="vertical" >
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masjid out dua"
+        android:textColor="#f8f8ff"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:layout_marginBottom="30sp"
+       	android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/majoutdua"
+        android:textSize="30dp"
+        android:layout_marginBottom="30sp"
+        android:textColor="#F8F8ff"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Itikaf Dua"
+        android:textColor="#f8f8ff"
+        android:layout_marginBottom="30sp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itikafdua"
+        android:gravity="center"
+        android:textColor="#f8f8ff"
+        android:textSize="30dp"
+        android:layout_marginBottom="30sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:background="@drawable/button"
+        android:text="Finish" />
+    
+            
+        </LinearLayout>
+        
+    </ScrollView>
+    
+</LinearLayout>

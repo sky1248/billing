@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SkyDuaApp</string>
+    <string name="hello_world">ASSALAMUWALYKUM</string>
+    <string name="action_settings">Settings</string>
+    <string name="button1">Kalima</string>
+    <string name="button2">Masjid in duva</string>
+    <string name="button3">Masjid out dua</string>
+    <string name="button4">Itikaf Dua</string>
+    <string name="textview1">Welcome</string>
+    <string name="textkm">LAA ILAAHA ILLAL MOHAMMADUR RASOOL ULLAH</string>
+    <string name="textmajin"> ALLAAHUM-MAF-TAHLEE ABWAABA RAHMATIKA</string>
+    <string name="majoutdua">ALLAAHUMMA  INNEE  ASALUKA  MIN  FADHLIKA</string>
+    <string name="itikafdua">BISMILLAHI DAKHALTU WA ALAYHI TAWAKKALTU WANAWAYTU SUNNATAL ITIKAF</string>
+    <string name="button5">Khanakhaneki dua</string>
+    <string name="button6">DIFFERENTDUAS</string>
+    <string name="khanekidua">ALLAH HUMMA BARIKLANA FEEMA RAZAQTANA WARZUQNA QHAIRUM MINHU BISMILLAHI WALA BARQATELLA</string>
+    <string name="duaafterfood">ALHAMDU LLILAH HILLAZZI ATAAMANA WASAQAANA WAJA ALANA MINAL MUSLIMEEN</string>
+    <string name="sonekiduva">ALLAHA HUMMA BISMIKA VAMUTHU VAHIYA</string>
+    <string name="sokarutnekiduvas">ALHAMDULLILAH HILLAJI AHYANA BADAMA AMATANA WA ELAIHIN NASHUR</string>
+    
+</resources>

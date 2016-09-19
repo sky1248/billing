@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qbf"
+    android:orientation="vertical" >
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            
+	<TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:text="KHANEKI DUA"
+        
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:textSize="27sp"
+        android:textColor="#ffffff"
+        android:textStyle="italic|bold"
+        android:gravity="center"
+        android:text="@string/khanekidua"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+         android:textSize="27dp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+          android:layout_marginBottom="70dp"
+        android:text="Dua After Food"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+       android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:text="@string/duaafterfood"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+             <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:background="@drawable/button"
+        android:layout_gravity="center"
+        android:text="Finish" />
+        </LinearLayout>
+        
+        
+    </ScrollView>
+
+    
+            
+</LinearLayout>
