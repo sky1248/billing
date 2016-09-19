@@ -12,7 +12,7 @@ import android.widget.Button;
 public class ALLduas extends ActionBarActivity {
 	Button b1,b2,b3,b4,b5,b6,b7,b8;
 	
-
+//hai this is modified by sky at 3:34
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
