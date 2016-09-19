@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 public class Khanakhanekidua extends Activity {
 Button finish;
+//this is by sky at 3:45pm
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
