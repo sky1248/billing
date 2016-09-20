@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- All the resources used in the fragment were the bill's information is registered. -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Strings used for all the components in the register fragment. -->
+    <string name="name">Nombres y Apellidos</string>
+    <string name="address">Domicilio</string>
+    <string name="id">Nro. de Documento de Identidad</string>
+    <string name="dispatch">Lugar de Expedicion</string>
+    <string name="employer_name">Nombres y Apellidos o razon social del empleador</string>
+    <string name="nit">Nro. de NIT</string>
+    <string name="day">Día</string>
+    <string name="month">Mes</string>
+    <string name="year">Año</string>
+    <string name="save">Guardar</string>
+    <string name="email">Email</string>
+    <string name="placeOfPresentation">Lugar de Presentación</string>
+    <string-array name="months">
+        <item >01</item>
+        <item >02</item>
+        <item >03</item>
+        <item >04</item>
+        <item >05</item>
+        <item >06</item>
+        <item >07</item>
+        <item >08</item>
+        <item >09</item>
+        <item >10</item>
+        <item >11</item>
+        <item >12</item>
+    </string-array>
+    <string-array name="days_31">
+        <item >01</item><item >02</item><item >03</item><item >04</item><item >05</item>
+        <item >06</item><item >07</item><item >08</item><item >09</item><item >10</item>
+        <item >11</item><item >12</item><item >13</item><item >14</item><item >15</item>
+        <item >16</item><item >17</item><item >18</item><item >19</item><item >20</item>
+        <item >21</item><item >22</item><item >23</item><item >24</item><item >25</item>
+        <item >26</item><item >27</item><item >28</item><item >29</item><item >30</item>
+ 		<item >31</item>   
+    </string-array>
+    <string-array name="days_30">
+        <item >01</item><item >02</item><item >03</item><item >04</item><item >05</item>
+        <item >06</item><item >07</item><item >08</item><item >09</item><item >10</item>
+        <item >11</item><item >12</item><item >13</item><item >14</item><item >15</item>
+        <item >16</item><item >17</item><item >18</item><item >19</item><item >20</item>
+        <item >21</item><item >22</item><item >23</item><item >24</item><item >25</item>
+        <item >26</item><item >27</item><item >28</item><item >29</item><item >30</item>
+    </string-array>
+    <string-array name="days_28">
+        <item >01</item><item >02</item><item >03</item><item >04</item><item >05</item>
+        <item >06</item><item >07</item><item >08</item><item >09</item><item >10</item>
+        <item >11</item><item >12</item><item >13</item><item >14</item><item >15</item>
+        <item >16</item><item >17</item><item >18</item><item >19</item><item >20</item>
+        <item >21</item><item >22</item><item >23</item><item >24</item><item >25</item>
+        <item >26</item><item >27</item><item >28</item>
+    </string-array>
+    <string-array name="expeditionPlace">
+        <item >La Paz</item>
+        <item >Cochabamba</item>
+        <item >Santa Cruz</item>
+        <item >Tarija</item>
+        <item >Oruro</item>
+        <item >Potosí</item>
+        <item >Pando</item>
+        <item >Chuquisaca</item>
+        <item >Beni</item>
+    </string-array>
+   
+    <color name="registerBackgroundColor">#F2F1DF</color>
+    <color name="Floating">#BED9BA</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="turquoise">#03A688</color>
+    
+    <!-- Style used in the textviews of the register fragment. -->
+    <style name="text_register_style" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#03A688</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

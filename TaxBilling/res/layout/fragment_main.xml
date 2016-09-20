@@ -1,0 +1,61 @@
+<!-- Main Fragment of the project -->
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bill"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.upb.taxbilling.MainActivity$PlaceholderFragment"
+    tools:ignore="Deprecated" >
+
+    <!-- Receipt image -->
+
+
+    <!-- Welcome message -->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:layout_x="20dp"
+        android:layout_y="228dp"
+        android:contentDescription="@string/receipt_desc"
+        android:src="@drawable/ff" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="130dp"
+        android:layout_height="77dp"
+        android:layout_x="49dp"
+        android:layout_y="321dp"
+        android:text="@string/mainButton_register" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130dp"
+        android:layout_height="77dp"
+        android:layout_x="191dp"
+        android:layout_y="321dp"
+        android:text="@string/mainButton_bill_table" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="77dp"
+        android:layout_x="49dp"
+        android:layout_y="410dp"
+        android:text="@string/mainButton_export_bill" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="130dp"
+        android:layout_height="77dp"
+        android:layout_x="191dp"
+        android:layout_y="410dp"
+        android:text="@string/mainButton_qr_reader" />
+
+</AbsoluteLayout>

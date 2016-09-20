@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Common strings used in all the project. -->
+
+<resources>
+
+    <string name="app_name">F.I.N</string>
+    <string name="title_menu">Menu Principal</string>
+    <string name="title_register">Reg. Info</string>
+    <string name="title_bill_table">Reg. Facturas</string>
+    <string name="title_export_bill">Exportar Facturas</string>
+    <string name="title_qr_reader">Leer Cod. QR</string>
+    <string name="title_send">Enviar .txt</string>
+    <string name="action_settings">Configuración</string>
+    <string name="welcome">Facturación de Impuestos Nacionales</string>
+    <string name="receipt_desc">Factura</string>
+    <string name="tap">Tap the image to open the camera</string>
+    <string name="qr_info">Información código QR</string>
+    <string name="mainButton_register">Registrar Información</string>
+    <string name="mainButton_bill_table">Registrar Facturas</string>
+    <string name="mainButton_export_bill">Exportar Facturas</string>
+    <string name="mainButton_qr_reader">Leer Código QR</string>
+
+</resources>

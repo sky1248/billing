@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- All the string and style resources used on the bill table -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <!-- Strings used in the bill table's components -->
+    <string name="TableTitle">Detalle de Notas Fiscales</string>
+    <string name="TableColumn1">Nro.</string>
+    <string name="TableColumn2">NIT</string>
+    <string name="TableColumn3">Nro. de Factura</string>
+    <string name="TableColumn4">Nro. Autoriz./Orden</string>
+    <string name="TableColumn5">Fecha</string>
+    <string name="TableColumn6">Importe</string>
+    <string name="TableColumn7">Codigo de Control</string>
+    <string name="ButtonAdd">Agregar</string>
+    <string name="ButtonRemove">Eliminar</string>
+    <string name="ButtonClean">Limpiar</string>
+    
+    <!-- Styles used in the table -->
+    <style name="HeaderStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#F2F1DF</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">#03A688</item>
+    </style>
+    <style name="ContentStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#010326</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">#F2F1DF</item>
+    </style>
+    
+    <color name="RowSelectedColor">#6377C5</color>
+    <color name="RowNormalColor">#ECF9F6</color>
+    
+</resources>

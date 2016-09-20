@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    
+    <string name="total_amount">Total del Rubro</string>
+    <string name="export">Exportar</string>
+    <string name="payment_on_account">Determinación del pago a cuenta</string>
+    <string name="date">Fecha</string>
+</resources>
